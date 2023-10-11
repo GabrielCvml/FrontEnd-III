@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="titulo">Titulo da pagina</h1>
+    <p id="p"> ... </p>
+    <button id="botao" onclick="mudarTexto()">Botão</button>
+    <hr>
+    <button id="botao2">clique aqui</button>
+    <script>
+      const meuBotao = document.getElementById("botao2");
+      meuBotao.addEventListener('click',function(){
+        alert("Botão clicado")
+      });
+    </script>
+</body>
+</html>
