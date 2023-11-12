@@ -13,10 +13,16 @@
             "curso": "Medicina"
         },
         {
-            "id":1,
+            "id":3,
             "nome": "Carlos",
             "email": "carlos@email.com",
             "curso": "Artes"
+        },
+        {
+            "id":4,
+            "nome": "Vitória",
+            "email": "vitoria@email.com",
+            "curso": "Engenharia M"
         }
     ]    
 }
